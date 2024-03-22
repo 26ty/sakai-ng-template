@@ -69,6 +69,7 @@ export class LayoutService {
         );
     }
 
+    // Menu控制
     onMenuToggle() {
         if (this.isOverlay()) {
             this.state.overlayMenuActive = !this.state.overlayMenuActive;
@@ -90,6 +91,7 @@ export class LayoutService {
         }
     }
 
+    // rwd Menu控制
     showProfileSidebar() {
         this.state.profileSidebarVisible = !this.state.profileSidebarVisible;
         if (this.state.profileSidebarVisible) {

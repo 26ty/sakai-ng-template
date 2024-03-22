@@ -13,6 +13,7 @@ export class AppMenuComponent implements OnInit {
     constructor(public layoutService: LayoutService) { }
 
     ngOnInit() {
+        // 側邊導覽列item
         this.model = [
             {
                 label: 'Home',
